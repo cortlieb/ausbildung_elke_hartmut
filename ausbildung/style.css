@@ -1,0 +1,408 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	margin-top:50px;
+	padding-bottom: 60px;
+	width:100%;
+	background-image: url(./images/header2.jpg);
+	background-size: 100%;
+	background-position:top center;
+	background-repeat: no-repeat;
+	background-color:#ffffff;
+	background-attachment:fixed;
+}
+
+.navbar-brand{
+	color:#54923c!important;
+}
+
+.navbar-brand:hover{
+	color:#ffffff!important;
+}
+
+#home.jumbotron{
+	background: transparent!important;
+	margin-top:37%!important;
+}
+
+#green.jumbotron{
+	background-color:rgba(196,212,144,0.85);
+
+	//background: #54923c;
+	//background: -moz-linear-gradient(top,  #54923c 0%, #02491c 100%); /* FF3.6+ */
+	//background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#54923c), color-stop(100%,#02491c)); /* Chrome,Safari4+ */
+	//background: -webkit-linear-gradient(top,  #54923c 0%,#02491c 100%); /* Chrome10+,Safari5.1+ */
+	//background: -o-linear-gradient(top,  #54923c 0%,#02491c 100%); /* Opera 11.10+ */
+	//background: -ms-linear-gradient(top,  #54923c 0%,#02491c 100%); /* IE10+ */
+	//filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54923c', endColorstr='#02491c',GradientType=0 ); /* IE6-9 */
+	//background-repeat: no-repeat;
+    //background-attachment: fixed;
+}
+
+@media all and (min-width: 100px){
+	h1{
+	color:#02491c;
+	font-family: 'CarroisGothic', Helvetica, Arial, sans-serif;
+	font-size:16pt;
+	}
+
+	#green.jumbotron h1{
+	color:#007f00;
+	font-size:16pt;
+	font-family: 'CarroisGothic', Helvetica, Arial, sans-serif;
+	font-weight:lighter;
+	}
+
+	#green .container p{
+		color:#ffffff;
+		font-size:12pt;
+		font-family: 'Dosis', Helvetica, Arial, sans-serif!important;
+	}
+	h2 {
+	font-family: 'Dosis', Helvetica, Arial, sans-serif;
+	font-size:14pt;
+	color:#02491c;
+	}
+
+	p{
+		font-family: 'Dosis', Helvetica, Arial, sans-serif!important;
+		font-size:11pt;
+	}
+	.resizeimg{
+		height:150px;
+	}
+	.example-image{
+		width:70px;
+		border-radius:5px;
+		border: 2px solid #004400;
+		margin-top:10px;
+		margin-bottom:15px;
+	}
+	.roundborderImage{
+	width:400px;
+	background-color:#ffffff;
+	border-radius:4px;
+	Padding:4px;
+	margin-top:8px;
+	margin-bottom:8px;
+	}
+	.unorderedlist{
+	font-family: 'Dosis', Helvetica, Arial, sans-serif;
+	font-size:11pt;
+	}
+	.footerlink{
+	font-size:9pt;
+	}
+}
+
+@media all and (min-width: 767px){
+	h1{
+	color:#02491c;
+	font-family: 'CarroisGothic', Helvetica, Arial, sans-serif;
+	font-size:20pt;
+	}
+
+	#green.jumbotron h1{
+	color:#004400;
+	font-size:20pt;
+	font-family: 'CarroisGothic', Helvetica, Arial, sans-serif;
+	}
+
+	#green .container p{
+		color:#ffffff;
+		font-size:13pt;
+		font-family: 'Dosis', Helvetica, Arial, sans-serif!important;
+	}
+	h2 {
+	font-family: 'CarroisGothic', Helvetica, Arial, sans-serif;
+	font-size:18pt;
+	color:#02491c;
+	}
+
+	p{
+		font-family: 'Dosis', Helvetica, Arial, sans-serif!important;
+		font-size:12pt;
+	}
+	.resizeimg{
+		height:250px;
+	}
+	.example-image{
+		width:100px;
+		border-radius:7px;
+		border: 2px solid #54923c;
+		margin-top:10px;
+		margin-bottom:15px;
+	}
+	.roundborderImage{
+	width:650px;
+	background-color:#ffffff;
+	border-radius:7px;
+	Padding:7px;
+	margin-top:15px;
+	margin-bottom:15px;
+	}
+	.unorderedlist{
+	font-family: 'Dosis', Helvetica, Arial, sans-serif;
+	font-size:12pt;
+	}
+	.footerlink{
+	font-size:10pt;
+	}
+}
+
+@media all and (min-width: 992px)
+{
+	h1{
+	color:#02491c;
+	font-family: 'CarroisGothic', Helvetica, Arial, sans-serif;
+	font-size:24pt;
+	}
+
+	#green.jumbotron h1{
+	color:#004400;
+	font-size:24pt;
+	font-family: 'CarroisGothic', Helvetica, Arial, sans-serif;
+	}
+
+	#green .container p{
+		color:#ffffff;
+		font-size:15pt;
+		font-family: 'Dosis', Helvetica, Arial, sans-serif!important;
+	}
+	h2 {
+		font-family: 'CarroisGothic',Helvetica, Arial, sans-serif;
+		font-size:22pt;
+		color:#02491c;
+	}
+
+	p{
+		font-family: 'Dosis', Helvetica, Arial, sans-serif!important;
+		font-size:13pt;
+	}
+	.resizeimg{
+		height:300px;
+	}
+	.example-image{
+		width:165px;
+		border-radius:10px;
+		border: 3px solid #54923c;
+		margin-top:10px;
+		margin-bottom:15px;
+	}
+	.roundborderImage{
+	width:900px;
+	background-color:#ffffff;
+	border-radius:12px;
+	Padding:12px;
+	margin-top:20px;
+	margin-bottom:20px;
+	}
+	.unorderedlist{
+	font-family: 'Dosis', Helvetica, Arial, sans-serif;
+	font-size:15pt;
+	}
+	.footerlink{
+	font-size:11t;
+	}
+}
+
+@media all and (min-width: 1200px)
+{
+	#green.jumbotron h1{
+	color:#004400;
+	font-size:41pt;
+	font-family: 'CarroisGothic', Helvetica, Arial, sans-serif;
+	}
+
+	#green .container p{
+		color:#ffffff;
+		font-size:16pt;
+		font-family: 'Dosis', Helvetica, Arial, sans-serif!important;
+	}
+	h2 {
+		font-family: 'CarroisGothic', Helvetica, Arial, sans-serif;
+		font-size:26pt;
+		color:#02491c;
+	}
+
+	p{
+		font-family: 'Dosis' ,Helvetica, Arial, sans-serif!important;
+		font-size:14pt;
+	}
+	.resizeimg{
+		height:350px;
+	}
+	.example-image{
+		width:185px;
+		border-radius:15px;
+		border: 3px solid #54923c;
+		margin-top:10px;
+		margin-bottom:15px;
+	}
+	.roundborderImage{
+	width:1000px;
+	background-color:#ffffff;
+	border-radius:15px;
+	Padding:15px;
+	margin-top:25px;
+	margin-bottom:25px;
+	}
+	.unorderedlist{
+	font-family: 'Dosis', Helvetica, Arial, sans-serif;
+	font-size:16pt;
+	}
+	.footerlink{
+	font-size:13pt;
+	}
+}
+
+.nomargin{
+	margin-bottom:0px;
+	padding-bottom: 0px;
+
+}
+
+.unorderedlist>li
+{
+	margin-bottom:10px;
+}
+.unorderedlist>li>span
+{
+	text-align:center;
+	position:relative;
+	border-radius:16px;
+	background-color:#5cb85c;
+	color:#ffffff;
+	font-family: 'Dosis', Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	width:120px;
+	font-size:8pt;
+	padding:2px 6px 2px 6px;
+	top:-4px;
+}
+
+.jumbotron{
+	margin-bottom:0px!important;
+}
+
+.unorderedlist>li>span.first{
+	background-color:#337ab7!important;
+}
+
+.unorderedlist>li>span.second{
+	background-color:#ffa200!important;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	font-size:13pt;
+	font-family: 'Dosis', Helvetica, Arial, sans-serif;
+	color:#02491c;
+	background-color:#cdff6c;
+}
+
+.nav-pills>li>a {
+	font-size:13pt;
+	font-family: 'Dosis', Helvetica, Arial, sans-serif;
+	color:#cdff6c;
+}
+
+.nav-pills>li>a:hover{
+	color:#02491c;
+}
+
+.whitebackground{
+	background-color:rgba(255,255,255,0.95);
+}
+
+.whiteopaquebackground{
+	background-color:#ffffff;
+}
+
+.beigebackground{
+	background-color:rgba(249,229,196,0.85);
+}
+
+.brightgreenbackground{
+	background-color:rgba(226,255,170,0.75);
+}
+
+.panel .panel-noborder
+{
+	border:0px solid transparent;
+}
+
+.panel{
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.0);
+	-o-box-shadow: 0 1px 1px rgba(0,0,0,.0);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.0);
+    box-shadow: 0 1px 1px rgba(0,0,0,.0)
+}
+
+.carousel-inner{
+	text-align:center!important;
+	border-radius: 15px!important;
+}
+
+div#carousel-example-generic
+{
+	max-width: 640px;
+	width: 100%;
+	margin:auto;
+}
+
+.item {
+	margin:auto!important;
+}
+
+.infobox{
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #ececec 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#ececec 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#ececec 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#ececec 100%); /* IE10+ */
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.35);
+	-o-box-shadow: 0 1px 1px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.35);
+    box-shadow: 0 1px 1px rgba(0,0,0,.0);
+	margin-bottom:0px;!important
+}
+
+#success_message{ display: none;}
+
+.impressumtable{
+	border:0px solid transparent;
+}
+
+
+.tdTopAlign{
+	vertical-align: top!important;
+}
+
+footer
+{
+	background-color:#000000;
+	height:60px;
+	margin-bottom: -60px;
+	padding-top:20px;
+}
+
+h3{
+	font-family: 'CarroisGothic', Helvetica, Arial, sans-serif;
+	color:#004400;
+}
+
+h4{
+	padding: 5px;
+}
+
+
+
+@font-face {
+	font-family: 'CarroisGothic';
+	src: url("./fonts/CarroisGothic.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+	font-family: 'Dosis';
+	src: url("./fonts/Dosis-Regular.ttf") /* TTF file for CSS3 browsers */
+}
