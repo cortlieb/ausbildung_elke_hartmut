@@ -43,6 +43,7 @@ body {
 	color:#02491c;
 	font-family: 'CarroisGothic', Helvetica, Arial, sans-serif;
 	font-size:16pt;
+	padding-top: 10px;
 	}
 
 	#green.jumbotron h1{
@@ -220,7 +221,7 @@ body {
 	}
 	h2 {
 		font-family: 'CarroisGothic', Helvetica, Arial, sans-serif;
-		font-size:26pt;
+		font-size:22pt;
 		color:#02491c;
 	}
 
